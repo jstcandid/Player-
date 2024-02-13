@@ -15,10 +15,26 @@
   </head>
   <body>
     <div class="container">
-      <!-- <button id="button">Choose file</button> -->
       <canvas id="canvas"></canvas>
-      <audio id="audio" controls></audio>
-      <input type="file" id="audiofile" accept="audio/*" />
+      <div class="wrapper">
+        <!-- <button id="button">Choose file</button> -->
+        
+        <audio id="audio" controls></audio>
+
+        <input
+          class="form-control"
+          type="file"
+          id="audiofile"
+          accept="audio/*"
+        />
+
+        <!-- <input
+            class="btn btn-success"
+            type="file"
+            id="audiofile"
+            accept="audio/*"
+          /> -->
+      
     </div>
   </body>
   <script src="../scripts/app.js"></script>
